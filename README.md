@@ -1,4 +1,5 @@
 # Admin-Dash-Project
-Project Personal Portofolio	/
-fully responsive interface /
-https://0red0.github.io/Project-Personal-Portofolio/
+Project Personal Portofolio	\n
+fully responsive interface \n
+visit page: \n
+https://0red0.github.io/Personal-Portofolio/
