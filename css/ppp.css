@@ -81,7 +81,7 @@ header::before {
    box-shadow: 0 1px 8px #000;
 }
 header > .container > .special {
-   line-height: 0.77;
+   line-height: 0.66;
 }
 header figcaption {
    display: flex;
@@ -277,6 +277,10 @@ footer .holder .info .icons {
 }
 footer .holder .info .icons i {
    margin-right: 15px;
+   color: white;
+}
+footer .holder .info .icons i:hover {
+   color: violet;
 }
 @media (max-width: 777px) {
    footer .holder .info .icons {
