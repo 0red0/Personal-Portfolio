@@ -22,6 +22,14 @@ body {
    margin: 0 auto;
    text-align: center;
 }
+header .special {
+   color: #ddd;
+   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+      0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+header .special + q {
+   margin-top: 3px;
+}
 .special + q {
    display: block;
    color: #777;
@@ -113,9 +121,10 @@ header figcaption .text .icons i {
    font-size: 2em;
    color: black;
    margin: 10px;
+   transition: 0.3s;
 }
 header figcaption .text .icons i:hover {
-   color: violet;
+   color: #03a9f4;
 }
 @media (max-width: 1000px) {
    header figcaption {
@@ -160,14 +169,17 @@ main section {
    gap: 40px;
 }
 main section .box {
-   box-shadow: 0px 0px 5px 1px #aaa;
-   background-color: white;
+   box-shadow: 0px 2px 5px 1px #aaa;
+   background-color: #ffe5e570;
    display: flex;
    flex-direction: column;
    justify-content: start;
+   transition: 0.3s;
 }
 main section .box:hover {
-   box-shadow: 0px 0px 5px 2px #888;
+   background-color: #fff;
+   box-shadow: 0px 2px 5px 2px #888;
+   transform: scale(1.01);
 }
 main section .box .image {
    align-self: center;
@@ -193,13 +205,14 @@ main section .box .image::before {
 main section .box .image:hover::before {
    height: 0%;
    width: 0%;
+   opacity: 0;
 }
 main section .box .image img {
    max-width: 100%;
    transition: 0.6s;
 }
 main section .box .image:hover img {
-   transform: scale(1.5);
+   transform: scale(1.2);
 }
 main section .box .info {
    margin: 20px;
@@ -218,8 +231,35 @@ main section .box .info .title i {
    padding-left: 10px;
    color: black;
 }
+main section .box .info .title a {
+   position: relative;
+}
+main section .box .info .title a[title]:hover::after {
+   content: attr(title);
+   position: absolute;
+   top: -115%;
+   left: -50%;
+   text-align: center;
+   width: 60px;
+   margin: 5px;
+   padding: 3px 5px;
+   font-size: 0.8rem;
+   border-radius: 5px;
+   background-color: #03a9f4;
+   color: #fff;
+   text-decoration: none;
+   transition: 0.4s;
+}
+main section .box .info .title a:hover::before {
+   content: "";
+   position: absolute;
+   top: -10px;
+   left: 17px;
+   border: 5px solid transparent;
+   border-top-color: #03a9f4;
+}
 main section .box .info .title i:hover {
-   color: violet;
+   color: #03a9f4;
 }
 main section .box .info p {
    line-height: 1.5;
@@ -278,9 +318,10 @@ footer .holder .info .icons {
 footer .holder .info .icons i {
    margin-right: 15px;
    color: white;
+   transition: 0.3s;
 }
 footer .holder .info .icons i:hover {
-   color: violet;
+   color: rgb(122, 86, 255);
 }
 @media (max-width: 777px) {
    footer .holder .info .icons {
