@@ -1,0 +1,79 @@
+[
+   {
+      "index": 1,
+      "imgName": "Landing-page.png",
+      "title": "My first page",
+      "gitLink": "106-flex-landing-page1",
+      "info": "Landing page using intro to html and css Odin project - foundation project."
+   },
+   {
+      "index": 2,
+      "imgName": "noob-portfolio.png",
+      "title": "Noob portfolio",
+      "gitLink": "100-MyPortfolio",
+      "info": "I'm planing to build an amazing portfolio with sick interactive animation. [just day 1 words]"
+   },
+   {
+      "index": 3,
+      "imgName": "bondi.png",
+      "title": "Bondi Design",
+      "gitLink": "Design-Bondi",
+      "info": "Complete page design in HTML, Bootstrap, SASS, Javascript. <br> Fully responsive. <br> Quality of a web page."
+   },
+   {
+      "index": 4,
+      "imgName": "admin-dash.png",
+      "title": "Admin Dash",
+      "gitLink": "Admin-Dash-Project",
+      "info": "Admin Dashboard Project fully responsive interface, vivid and more."
+   },
+   {
+      "index": 5,
+      "imgName": "Landing2.png",
+      "title": "Landing Page",
+      "gitLink": "Template-3",
+      "info": "Better Landing Page. Recreated using only HTML & CSS. Fully Responsive."
+   },
+   {
+      "index": 6,
+      "imgName": "rps.png",
+      "title": "Rock Paper Scissors",
+      "gitLink": "RockPaperScissors",
+      "info": "Basic Rock Paper Scissors Game."
+   },
+   {
+      "index": 7,
+      "imgName": "ToDoTask.png",
+      "title": "To Do List",
+      "gitLink": "ToDoTasks",
+      "info": "To Do List with minimal functioning code. Friendly responsive interactive interface. Future updates insight."
+   },
+   {
+      "index": 8,
+      "imgName": "TypingTest.png",
+      "title": "Typing Test Game",
+      "gitLink": "Typing-Game",
+      "info": "Test your typing skills and track your progress, Fully interactive and friendly game."
+   },
+   {
+      "index": 9,
+      "imgName": "memory.png",
+      "title": "Memory Game",
+      "gitLink": "memoryGame",
+      "info": "Memory is an easy-to-learn, easy-to-play card game. Test your memory, and reveal the most pairs to win this game!"
+   },
+   {
+      "index": 10,
+      "imgName": "project1.jpg",
+      "title": "Project",
+      "gitLink": "#",
+      "info": "Projects yet to come."
+   },
+   {
+      "index": 11,
+      "imgName": "project2.jpg",
+      "title": "Project",
+      "gitLink": "#",
+      "info": "We all need some bravery in our lives. Fear of failure cripples creativity."
+   }
+]

@@ -23,12 +23,13 @@ body {
    text-align: center;
 }
 header .special {
-   color: #ddd;
+   color: #111;
    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
       0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
 header .special + q {
    margin-top: 3px;
+   font-weight: bold;
 }
 .special + q {
    display: block;
@@ -121,6 +122,7 @@ header figcaption .text .icons i {
    font-size: 2em;
    color: black;
    margin: 10px;
+   text-shadow: 0px 2px 4px #000;
    transition: 0.3s;
 }
 header figcaption .text .icons i:hover {
@@ -230,6 +232,7 @@ main section .box .info .title i {
    font-size: 1.5rem;
    padding-left: 10px;
    color: black;
+   text-shadow: 0px 1px 2px #555;
 }
 main section .box .info .title a {
    position: relative;
@@ -319,6 +322,7 @@ footer .holder .info .icons i {
    margin-right: 15px;
    color: white;
    transition: 0.3s;
+   text-shadow: 0px 2px 4px #000;
 }
 footer .holder .info .icons i:hover {
    color: rgb(122, 86, 255);
