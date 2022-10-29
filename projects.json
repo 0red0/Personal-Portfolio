@@ -64,13 +64,20 @@
    },
    {
       "index": 10,
+      "imgName": "puzzle.png",
+      "title": "Puzzle Game",
+      "gitLink": "Puzzle",
+      "info": "Entertaining Puzzle Game, For the whole family."
+   },
+   {
+      "index": 11,
       "imgName": "project1.jpg",
       "title": "Project",
       "gitLink": "#",
       "info": "Projects yet to come."
    },
    {
-      "index": 11,
+      "index": 12,
       "imgName": "project2.jpg",
       "title": "Project",
       "gitLink": "#",
