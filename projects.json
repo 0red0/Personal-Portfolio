@@ -50,10 +50,10 @@
    },
    {
       "index": 8,
-      "imgName": "TypingTest.png",
-      "title": "Typing Test Game",
-      "gitLink": "Typing-Game",
-      "info": "Test your typing skills and track your progress, Fully interactive and friendly game."
+      "imgName": "patrix.png",
+      "title": "Bootstrap Page",
+      "gitLink": "Bootstrap-tutorial",
+      "info": "Used Bootstrap5, SASS, Javascript. Constituently responsive page."
    },
    {
       "index": 9,
@@ -71,13 +71,20 @@
    },
    {
       "index": 11,
+      "imgName": "TypingTest.png",
+      "title": "Typing Test Game",
+      "gitLink": "Typing-Game",
+      "info": "Test your typing skills and track your progress, Fully interactive and friendly game."
+   },
+   {
+      "index": 12,
       "imgName": "project1.jpg",
       "title": "Project",
       "gitLink": "#",
       "info": "Projects yet to come."
    },
    {
-      "index": 12,
+      "index": 13,
       "imgName": "project2.jpg",
       "title": "Project",
       "gitLink": "#",
