@@ -298,6 +298,11 @@ article pre {
    font-size: 1.1rem;
    color: #777;
 }
+@media (max-width: 767px) {
+   article .image {
+      display: none;
+   }
+}
 /* //Ranting// */
 /* //FOOTER */
 footer {
