@@ -170,6 +170,12 @@ main section {
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
    gap: 40px;
 }
+@media (max-width: 768) {
+   main section {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+   }
+}
 main section .box {
    box-shadow: 0px 2px 5px 1px #aaa;
    background-color: #ffe5e570;
