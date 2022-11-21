@@ -1,11 +1,13 @@
 const projectsHolder = document.querySelector("main section");
+const mainArea = document.querySelector("main");
+const pattern = document.getElementById("bg-pattern");
 
 fetch("./projects.json")
    .then((resp) => resp.json())
    .then((data) => handler(data));
 
 function handler(d) {
-   d.forEach((project) => {
+   d.forEach((project, index) => {
       const box = document.createElement("div");
       box.className = "box";
       const imgDiv = document.createElement("div");
@@ -44,5 +46,17 @@ function handler(d) {
       imgDiv.append(img);
       box.append(imgDiv, info);
       projectsHolder.append(box);
+      box.onmouseover = () => {
+         projectsHolder.dataset.activeIndex = index;
+         if (projectsHolder.dataset.activeIndex == index) {
+            pattern.style.backgroundPosition = `0% -${index * 2}%`;
+         }
+      };
    });
 }
+mainArea.addEventListener("mouseover", function () {
+   pattern.classList.add("hovering");
+});
+mainArea.addEventListener("mouseleave", function () {
+   pattern.classList.remove("hovering");
+});

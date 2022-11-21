@@ -11,8 +11,33 @@
 body {
    font-family: "Playfair Display", serif;
    font-family: "Cairo", sans-serif;
+   position: relative;
+   background-color: #aca7cb;
 }
 /* //Global rules */
+/* BODY BACKGROUND */
+#bg-pattern {
+   height: 100%;
+   width: 100vw;
+   background-image: radial-gradient(
+      rgb(255, 255, 255, 0.2) 9%,
+      transparent 9%
+   );
+   /* background-image: radial-gradient(rgba(0, 0, 0, 0.2) 9%, transparent 9%); */
+   background-position: 0% 0%;
+   background-size: 12vmin 12vmin;
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: -3;
+   transition: 800ms ease;
+}
+#bg-pattern.hovering {
+   background-size: 11vmin 11vmin;
+   opacity: 0.5;
+}
+
+/* BODY BACKGROUND */
 /* SPECIAL HEADER */
 .special {
    font: 900 5rem arial, sans-serif;
@@ -43,17 +68,17 @@ header .special + q {
    max-width: 1100px;
    margin-left: auto;
    margin-right: auto;
-   padding: 0 15px;
+   padding: 0 20px;
 }
-@media (max-width: 767px) {
+@media (width <= 767px) {
    .container {
       max-width: 720px;
    }
 }
-@media (max-width: 991px) {
+@media (768px <= width <= 991px) {
    .container {
       max-width: 940px;
-      padding: 0 30px;
+      padding: 0 40px;
    }
 }
 /* CONTAINER */
@@ -175,18 +200,28 @@ main section {
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 20px;
    }
+   main .container {
+      padding: 0 100px;
+   }
 }
 main section .box {
-   box-shadow: 0px 2px 5px 1px #aaa;
-   background-color: #ffe5e570;
+   /* box-shadow: 0px 2px 5px 1px #aaa; */
+   box-shadow: 0px 4px 15px 0px #000;
+   background-color: #f2ecff;
    display: flex;
    flex-direction: column;
    justify-content: start;
    transition: 0.3s;
 }
+@media (width < 700px) {
+   main section .box {
+      max-width: 350px;
+      margin: auto;
+   }
+}
 main section .box:hover {
    background-color: #fff;
-   box-shadow: 0px 2px 5px 2px #888;
+   box-shadow: 0px 4px 15px 3px #000;
    transform: scale(1.01);
 }
 main section .box .image {
