@@ -85,13 +85,20 @@
    },
    {
       "index": 13,
+      "imgName": "calculator.png",
+      "title": "Calculator",
+      "gitLink": "calculator",
+      "info": "This project covers the interactions with UI and key JavaScript methods used in building a functional and responsive calculator."
+   },
+   {
+      "index": 14,
       "imgName": "project1.jpg",
       "title": "Project",
       "gitLink": "#",
       "info": "Projects yet to come."
    },
    {
-      "index": 14,
+      "index": 15,
       "imgName": "project2.jpg",
       "title": "Project",
       "gitLink": "#",
