@@ -12,6 +12,10 @@ function handler(d) {
       box.className = "box";
       const imgDiv = document.createElement("div");
       imgDiv.className = "image";
+      const visitLink1 = document.createElement("a");
+      visitLink1.href = `https://0red0.github.io/${project.gitLink}/`;
+      visitLink1.title = "Visit Page";
+      visitLink1.target = "_blank";
       const img = document.createElement("img");
       img.src = `./images/${project.imgName}`;
       img.alt = `${project.imgName}`;
@@ -29,21 +33,22 @@ function handler(d) {
       codeLink.target = "_blank";
       const gitIcon = document.createElement("i");
       gitIcon.classList.add("fab", "fa-github");
-      const visitLink = document.createElement("a");
-      visitLink.href = `https://0red0.github.io/${project.gitLink}/`;
-      visitLink.title = "Visit Page";
-      visitLink.target = "_blank";
+      const visitLink2 = document.createElement("a");
+      visitLink2.href = `https://0red0.github.io/${project.gitLink}/`;
+      visitLink2.title = "Visit Page";
+      visitLink2.target = "_blank";
       const visitIcon = document.createElement("i");
       visitIcon.classList.add("fas", "fa-external-link-alt");
       const p = document.createElement("p");
       p.innerText = `${project.info}`;
       //Append elements from in to out
       codeLink.append(gitIcon);
-      visitLink.append(visitIcon);
-      icons.append(codeLink, visitLink);
+      visitLink2.append(visitIcon);
+      icons.append(codeLink, visitLink2);
       title.append(h3, icons);
       info.append(title, p);
-      imgDiv.append(img);
+      visitLink1.append(img);
+      imgDiv.append(visitLink1);
       box.append(imgDiv, info);
       projectsHolder.append(box);
       box.onmouseover = () => {
