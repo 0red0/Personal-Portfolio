@@ -92,13 +92,20 @@
    },
    {
       "index": 14,
+      "imgName": "books.png",
+      "title": "Books Library",
+      "gitLink": "Books-Library",
+      "info": "This project covers the interactions with UI and key JavaScript methods used in building a functional and responsive book library."
+   },
+   {
+      "index": 15,
       "imgName": "project1.jpg",
       "title": "Project",
       "gitLink": "#",
       "info": "Projects yet to come."
    },
    {
-      "index": 15,
+      "index": 16,
       "imgName": "project2.jpg",
       "title": "Project",
       "gitLink": "#",
