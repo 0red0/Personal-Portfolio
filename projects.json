@@ -29,83 +29,90 @@
    },
    {
       "index": 5,
+      "imgName": "gcc.png",
+      "title": "GCC Website",
+      "gitLink": "GCC",
+      "info": "Gebril Clothes Company website, with products, responsive and engaging experience."
+   },
+   {
+      "index": 6,
       "imgName": "admin-dash.png",
       "title": "Dashboard 1",
       "gitLink": "Dashboard-1",
       "info": "Admin Dashboard Project fully responsive interface, vivid and more."
    },
    {
-      "index": 6,
+      "index": 7,
       "imgName": "dash2.png",
       "title": "Dashboard 2",
       "gitLink": "Dashboard-2-Template-4",
       "info": "More functionality, interactive Dashboard fully responsive interface. Uses HTML , SASS , Costume framework."
    },
    {
-      "index": 7,
+      "index": 8,
       "imgName": "noob-portfolio.png",
       "title": "Noob portfolio",
       "gitLink": "100-MyPortfolio",
       "info": "I'm planing to build an amazing portfolio with sick interactive animation. [just day 1 words]"
    },
    {
-      "index": 8,
+      "index": 9,
       "imgName": "rps.png",
       "title": "Rock Paper Scissors",
       "gitLink": "RockPaperScissors",
       "info": "First Javascript game. Basic Rock Paper Scissors Game."
    },
    {
-      "index": 9,
+      "index": 10,
       "imgName": "ToDoTask.png",
       "title": "To Do List",
       "gitLink": "ToDoTasks",
       "info": "To Do List with minimal functioning code. Friendly responsive interactive interface. Future updates insight."
    },
    {
-      "index": 10,
+      "index": 11,
       "imgName": "memory.png",
       "title": "Memory Game",
       "gitLink": "memoryGame",
       "info": "Memory is an easy-to-learn, easy-to-play card game. Test your memory, and reveal the most pairs to win this game!"
    },
    {
-      "index": 11,
+      "index": 12,
       "imgName": "puzzle.png",
       "title": "Puzzle Game",
       "gitLink": "Puzzle",
       "info": "Entertaining Puzzle Game, For the whole family."
    },
    {
-      "index": 12,
+      "index": 13,
       "imgName": "TypingTest.png",
       "title": "Typing Test Game",
       "gitLink": "Typing-Game",
       "info": "Test your typing skills and track your progress, Fully interactive and friendly game."
    },
    {
-      "index": 13,
+      "index": 14,
       "imgName": "calculator.png",
       "title": "Calculator",
       "gitLink": "calculator",
       "info": "This project covers the interactions with UI and key JavaScript methods used in building a functional and responsive calculator."
    },
    {
-      "index": 14,
+      "index": 15,
       "imgName": "books.png",
       "title": "Books Library",
       "gitLink": "Books-Library",
       "info": "This project covers the interactions with UI and key JavaScript methods used in building a functional and responsive book library."
    },
    {
-      "index": 15,
+      "index": 16,
       "imgName": "project1.jpg",
       "title": "Project",
       "gitLink": "#",
       "info": "Projects yet to come."
    },
    {
-      "index": 16,
+      "index": 17,
       "imgName": "project2.jpg",
       "title": "Project",
       "gitLink": "#",
