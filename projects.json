@@ -106,10 +106,10 @@
    },
    {
       "index": 16,
-      "imgName": "project1.jpg",
-      "title": "Project",
-      "gitLink": "#",
-      "info": "Projects yet to come."
+      "imgName": "tic.png",
+      "title": "Tic Tac Toe",
+      "gitLink": "Tic-Tac-Toe",
+      "info": "I learned a great deal out of this tic tac toe project. Effectively organizing, writing cleaner code ,Spending minutes pre-planning the steps boost my performance as well."
    },
    {
       "index": 17,
