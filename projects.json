@@ -117,5 +117,12 @@
       "title": "Tic Tac Toe",
       "gitLink": "Tic-Tac-Toe",
       "info": "I learned a great deal out of this tic tac toe project. Effectively organizing, writing cleaner code ,Spending minutes pre-planning the steps boost my performance as well."
+   },
+   {
+      "index": 18,
+      "imgName": "weather.png",
+      "title": "Weather inn",
+      "gitLink": "Weather-inn",
+      "info": "This feature provides accurate weather information based on location. This app will also provide rain forecast, humidity information."
    }
 ]
