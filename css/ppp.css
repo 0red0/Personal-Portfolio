@@ -345,6 +345,23 @@ article pre {
    }
 }
 /* //Ranting// */
+/* //Skills// */
+.skills {
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.212);
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
+.skills h3 {
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+.skills img {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+/* //Skills// */
+
 /* //FOOTER */
 footer {
    padding-top: var(--paddingA);
