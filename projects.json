@@ -132,4 +132,36 @@
       "gitLink": "Battleship",
       "info": "The classic naval combat game that brings together competition, strategy, and excitement. In head-to-head battle."
    }
+   ,
+   {
+      "index": 20,
+      "imgName": "loginwithreact.png",
+      "title": "Login With React",
+      "gitLink": "loginWithReact",
+      "info": "Login with React interface with validation."
+   }
+   ,
+   {
+      "index": 21,
+      "imgName": "cvform.png",
+      "title": "CV-Form React",
+      "gitLink": "CV-Form",
+      "info": "Make your CV easy, fast, reliable. You may also see any lint errors in the console."
+   }
+   ,
+   {
+      "index": 22,
+      "imgName": "expen.png",
+      "title": "Expenses ReactApp",
+      "gitLink": "expenseReactApp",
+      "info": "Keep track of your expenses no matter the consequences. Free to use only for limited time."
+   }
+   ,
+   {
+      "index": 23,
+      "imgName": "food.png",
+      "title": "Food Ordering",
+      "gitLink": "FoodOrderingReact",
+      "info": "Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home."
+   }
 ]
