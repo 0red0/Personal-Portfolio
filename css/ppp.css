@@ -398,8 +398,13 @@ footer .holder .info {
 }
 footer .holder .info p {
    font-size: 1.3rem;
-   padding: 20px;
+   padding: 7px 20px;
    line-height: 1.5;
+}
+footer .holder .cv-link{
+   text-decoration: none;
+   color: violet;
+   padding: 20px 0px;
 }
 footer .holder .info > div {
    font-size: 1.5rem;
@@ -425,5 +430,10 @@ footer .holder .info .icons i:hover {
 }
 footer .holder .image img {
    width: 100%;
+}
+@media (max-width: 480px) {
+   footer .holder .image img {
+      display: none;
+   }
 }
 /* //FOOTER */
