@@ -403,8 +403,10 @@ footer .holder .info p {
 }
 footer .holder .cv-link{
    text-decoration: none;
+   color: white;
+}
+footer .holder .cv-link:hover{
    color: violet;
-   padding: 20px 0px;
 }
 footer .holder .info > div {
    font-size: 1.5rem;
@@ -437,3 +439,10 @@ footer .holder .image img {
    }
 }
 /* //FOOTER */
+
+/* // RESUME // */
+.cv-div img {display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;}
+/* // RESUME // */
